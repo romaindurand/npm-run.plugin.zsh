@@ -1,7 +1,7 @@
 #
 # npm-run.plugin.zsh
 # 
-# Autocompletion for `npm run scripts`
+# Autocompletion for `npm & pnpm run scripts`
 #
 # Copyright(c) 2015 André König <andre.koenig@posteo.de>
 # MIT Licensed
@@ -15,3 +15,4 @@ function _scripts () {
 }
 
 compdef _scripts npm run
+compdef _scripts pnpm run
